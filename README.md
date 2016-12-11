@@ -18,7 +18,7 @@ Dead simple boilerplate for front-end static site projects where you want modern
 
 ## Notes
 
-The index.html is less than ideal, as it exists in the `build` directory. For your own projects, you will probably want to integrate some sort of templating system for yourself (such as [Pug](https://github.com/pugjs/pug)) and a watch-driven copy task that pushes your compiled templates into `build`. I chose not to include templates because the template system used generally depends on the complexity of the static page, and didn't want to be prescriptive.
+The index.html is less than ideal, as it exists in the `build` directory. For your own projects, you will probably want to integrate some sort of templating system for yourself (such as [Pug](https://github.com/pugjs/pug) or [`html-webpack-plugin`](https://github.com/ampedandwired/html-webpack-plugin)) and a watch-driven copy task that pushes your compiled templates into `build`. I chose not to include templates because the template system used generally depends on the complexity of the static page, and didn't want to be prescriptive.
 
 ## Less fancy
 
